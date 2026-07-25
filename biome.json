@@ -12,6 +12,7 @@
     "includes": [
       "**",
       "!node_modules",
+      "!agentur",
       "!**/.next",
       "!**/dist",
       "!**/public",

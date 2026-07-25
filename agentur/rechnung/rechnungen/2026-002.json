@@ -1,0 +1,40 @@
+{
+  "nummer": "RE-2026-002",
+  "datum": "2026-04-25",
+  "leistungsdatum": "2026-04-25",
+  "kunde": {
+    "firma": "Bäder Beispiel GmbH & Co. KG",
+    "ansprechpartner": "Herr Thomas Beispiel",
+    "strasse": "Gewerbering 8",
+    "plz": "48336",
+    "ort": "Sassenberg",
+    "land": "Deutschland",
+    "laendercode": "DE",
+    "kundennummer": "K-2026-004",
+    "referenz": "Angebot vom 18.04.2026"
+  },
+  "positionen": [
+    {
+      "bezeichnung": "Setup Instagram-Auftritt",
+      "beschreibung": "Profilaudit, Content-Strategie, Bildwelt, Canva-Templates, Redaktionsplan Monat 1",
+      "menge": 1,
+      "einheit": "Pauschale",
+      "einzelpreis": 490.0
+    },
+    {
+      "bezeichnung": "Content-Shooting",
+      "beschreibung": "Halber Tag vor Ort inkl. Bildbearbeitung und Rohschnitt",
+      "menge": 1,
+      "einheit": "Pauschale",
+      "einzelpreis": 850.0
+    },
+    {
+      "bezeichnung": "Zusätzliche Korrekturschleifen",
+      "beschreibung": "Über die vertraglich vereinbarten zwei Runden hinaus",
+      "menge": 2.5,
+      "einheit": "Stunde",
+      "einzelpreis": 95.0
+    }
+  ],
+  "hinweis": "Die laufende Betreuung wird separat monatlich abgerechnet."
+}
