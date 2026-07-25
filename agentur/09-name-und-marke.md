@@ -147,9 +147,21 @@ Was WhatsApp selbst verlangt:
 - **Änderungen sind eingeschränkt.** Leg dich beim Einrichten fest, statt
   hinterher umzubenennen
 
-**Empfohlene Schreibweise:** `Werkbild` — schlicht. Wenn du in der Kaltakquise
-greifbarer wirken willst: `Werkbild · Nils Schumacher`. Bei lokalem B2B ist der
-Personenbezug eher ein Vorteil.
+**Dein eigener Name geht immer.** `Nils Schumacher` ist als Profilname
+uneingeschränkt zulässig — kein Markenrisiko, keine Prüfung nötig, und er deckt
+sich mit der Firmierungspflicht aus Abschnitt 1. Nur wird daraus für den
+Empfänger nicht ersichtlich, worum es geht. Deshalb besser mit Zusatz:
+`Nils Schumacher – Social Media` oder `Nils Schumacher | Instagram für Handwerk
+& Praxen`.
+
+**Empfohlene Schreibweise, wenn der Markenname steht:** `Werkbild` — schlicht.
+Oder `Werkbild · Nils Schumacher`, wenn du greifbarer wirken willst. Bei lokalem
+B2B ist der Personenbezug eher ein Vorteil.
+
+**Solange du beim Namen unentschieden bist, nimm den eigenen.** Weil
+Namensänderungen bei WhatsApp eingeschränkt sind, ist das die einzige Variante,
+die später nie falsch wird: Dein Name bleibt gültig, auch wenn du in Monat 6
+eine Marke darüberlegst.
 
 ### Impressumspflicht gilt auch hier
 
