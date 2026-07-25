@@ -13,6 +13,8 @@ ersetzen, losarbeiten.
 | [`03-akquise-anschreiben.md`](03-akquise-anschreiben.md) | Kalt-Mail, Instagram-DM, Telefonleitfaden, Follow-ups, Angebotsmail |
 | [`04-rechnungsstellung.md`](04-rechnungsstellung.md) | Pflichtangaben, Kleinunternehmer vs. Regelbesteuerung, E-Rechnung, Mahnwesen |
 | [`05-onboarding-und-betrieb.md`](05-onboarding-und-betrieb.md) | Kunden-Onboarding, Zugriffe, Monatsrhythmus, Reporting |
+| [`06-zielliste-brandenburg.md`](06-zielliste-brandenburg.md) | Marktgröße Raum Brandenburg a.d.H., Radius, Listenaufbau in 4 Stunden |
+| [`akquise/zielliste.csv`](akquise/zielliste.csv) | Arbeitsdatei für die Kaltakquise (Excel/LibreOffice) |
 | [`rechnung/`](rechnung/) | Rechnungsgenerator: JSON rein → druckfertige HTML-Rechnung (+ XRechnung-XML) raus |
 
 ## Schnellstart
