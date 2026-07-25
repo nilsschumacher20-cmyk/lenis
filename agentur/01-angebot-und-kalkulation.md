@@ -16,16 +16,22 @@ Zeit als es einbringt.
 | Community-Management | werktags | Kommentare + DMs, Reaktion < 24 h |
 | Reporting | 1× | 1-Seiten-PDF + 30-Min-Call |
 | Profiloptimierung | laufend | Bio, Highlights, Link-in-Bio |
+| **Drehtag vor Ort** | **1× pro Quartal** | **halber Tag, Material für 2–3 Monate** |
+
+Der Drehtag ist bewusst inklusive. Er kostet dich 1,5 h im Monatsschnitt und
+beseitigt dafür den häufigsten Kündigungsgrund — den leeren Feed, weil der Kunde
+kein Material geschickt hat. Begründung in [`08-materialbeschaffung.md`](08-materialbeschaffung.md).
 
 **Nicht enthalten** (bewusst — das sind deine Upsells):
-Ads-Budget und Ads-Betreuung, Foto-/Video-Shooting vor Ort, Influencer-Kooperationen,
+Ads-Budget und Ads-Betreuung, zusätzliche Drehtage, Influencer-Kooperationen,
 TikTok/LinkedIn, Website, Gewinnspiele.
 
 **Rahmenbedingungen:**
 - Mindestlaufzeit 3 Monate, danach monatlich kündbar zum Monatsende
 - Zahlung im Voraus zum 1. des Monats, Zahlungsziel 14 Tage
 - Content-Freigabe durch Kunde innerhalb 3 Werktagen, sonst gilt er als freigegeben
-- Kunde liefert Rohmaterial (Produktfotos, Team, Zugänge) — Bringschuld, im Vertrag festhalten
+- Kunde liefert laufend Handymaterial nach monatlichem Drehauftrag — Bringschuld,
+  im Vertrag festhalten. Bleibt es aus, produzierst du aus Archiv und Drehtag
 
 ## 2. Zeitaufwand pro Kunde (realistisch)
 
@@ -37,19 +43,21 @@ TikTok/LinkedIn, Website, Gewinnspiele.
 | Community-Management (15 min × 20 Werktage) | 5,0 |
 | Reporting + Kundencall | 1,5 |
 | Abstimmung, Korrekturschleifen, Puffer | 2,5 |
-| **Summe** | **~20 h** |
+| Drehtag vor Ort (5 h pro Quartal, umgelegt) | 1,5 |
+| **Summe** | **~21,5 h** |
 
-Das sind **75 €/Stunde effektiv**. Klingt ok — ist es auch, solange du die 20 h
-hältst. Der Killer sind Korrekturschleifen: **maximal 2 Korrekturrunden pro Post**
-in den Vertrag, sonst frisst ein einziger Kunde deinen Monat.
+Das sind **70 €/Stunde effektiv**. Klingt ok — ist es auch, solange du die
+21,5 h hältst. Der Killer sind Korrekturschleifen: **maximal 2 Korrekturrunden
+pro Post** in den Vertrag, sonst frisst ein einziger Kunde deinen Monat.
 
-Nach 3 Monaten Einarbeitung sinkt der Aufwand pro Kunde auf ca. 14–16 h, weil
-Templates, Tonalität und Bildwelt stehen. Dann liegst du bei ~95–105 €/h.
+Nach 3 Monaten Einarbeitung sinkt der Aufwand pro Kunde auf ca. 15–17 h, weil
+Templates, Tonalität und Bildwelt stehen. Dann liegst du bei ~90–100 €/h.
 
 ## 3. Kapazitätsgrenze
 
-- **Solo, Vollzeit:** ca. 160 h/Monat Delivery-Kapazität abzüglich 40 h Akquise/Admin
-  → **6 Kunden** komfortabel, 7 mit Zähnezusammenbeißen.
+- **Solo, Vollzeit:** ca. 160 h/Monat abzüglich 40 h Akquise/Admin = 120 h Delivery
+  → **5 Kunden** komfortabel, 6 mit Zähnezusammenbeißen. Nach der Einarbeitung
+  (15–17 h pro Kunde) werden daraus 7.
 - **Ab Kunde 6** brauchst du eine:n Freelancer:in (Video-Schnitt und Community-
   Management zuerst auslagern — das ist der stumpfeste, am leichtesten
   delegierbare Teil).
@@ -77,21 +85,19 @@ Templates, Tonalität und Bildwelt stehen. Dann liegst du bei ~95–105 €/h.
 - selbst betreut: **1.500 €**
 - mit Freelancer:in: **1.050 €**
 
-## 5. Preisstaffel (ab Monat 7 für Neukunden)
+## 5. Preisstaffel
 
-Deine ersten Kunden bleiben bei 1.500 €. Neukunden bepreist du höher, sobald du
-Referenzen hast:
+Die vollständige Paketstruktur mit Kalkulation und Verkaufslogik steht in
+[`07-leistungspakete.md`](07-leistungspakete.md). Kurzfassung:
 
-| Paket | Preis / Monat | Für wen |
-|---|---|---|
-| **Starter** | 990 € | 6 Posts, 2 Reels, kein Community-Management — nur als Einstieg/Testballon |
-| **Komplett** | 1.500 € | Standard, siehe oben |
-| **Komplett+** | 2.400 € | + Ads-Betreuung (Budget separat), + TikTok-Zweitverwertung, monatliches Shooting |
-| **Shooting-Tag** | 850 € einmalig | Halber Tag vor Ort, Content für 2 Monate |
-| **Setup-Fee** | 490 € einmalig | Profilaudit, Strategie, Bildwelt, Templates — **immer** berechnen, das ist echte Arbeit |
+| Paket | Preis / Monat | Setup | Kern |
+|---|---|---|---|
+| **Präsenz** | 890 € | 490 € | 4 Posts, 2 Reels, kein Community-Management |
+| **Wachstum** | 1.500 € | 690 € | Standard, siehe oben, halber Drehtag pro Quartal |
+| **Marktführer** | 2.900 € | 1.490 € | + Google Ads, Meta Ads, ganzer Drehtag pro Quartal |
 
 Die Setup-Fee ist wichtig: Sie filtert Zeitverschwender raus und deckt den
-überproportionalen Aufwand von Monat 1 ab.
+überproportionalen Aufwand von Monat 1 ab. **Immer** berechnen.
 
 ## 6. Nische wählen (die wichtigste Entscheidung)
 

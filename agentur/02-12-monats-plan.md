@@ -90,12 +90,13 @@ Nicht kündigen, nicht anmelden, erst das hier:
   Kunde 14 h und welcher 28 h frisst
 - Content-Batching: alle Reels aller Kunden an 2 festen Tagen im Monat schneiden.
   Kontextwechsel ist der teuerste Zeitfresser
+- Erster Quartals-Drehtag bei Kunde 1 — plane 5 Stunden inklusive Anfahrt ein
 - Quartalsgespräch mit Kunde 1: Verlängerung sichern, Upsell testen
-  (Shooting-Tag 850 €)
+  (TikTok-Zweitverwertung 390 €/Monat oder Recruiting-Kampagne 690 €)
 - Freelancer:innen-Suche starten (jetzt, nicht wenn du ertrinkst): 3 Kandidat:innen
   im Video-Schnitt mit Probeauftrag testen
 
-**KPI:** Ø Stunden pro Kunde < 20 h, 1 Abschluss, 1 Upsell.
+**KPI:** Ø Stunden pro Kunde < 21,5 h, 1 Abschluss, 1 Upsell.
 **Umsatz: 6.000 €**
 
 ---
@@ -145,7 +146,7 @@ Churn von 3–5 %/Monat ist normal.
 - **Neukundenpreis auf 1.800 €** (Bestandskunden behalten 1.500 € — das ist
   ihre Belohnung fürs frühe Vertrauen und du erwähnst es ihnen gegenüber auch so)
 - Setup-Fee auf 690 €
-- Angebot „Komplett+" (2.400 €) erstmals aktiv anbieten
+- Paket „Marktführer" (2.900 €) erstmals aktiv anbieten
 - Prozessdokumentation schreiben: Wie läuft ein Monat pro Kunde ab? Das ist die
   Grundlage für den nächsten Freelancer
 
@@ -182,7 +183,7 @@ Churn von 3–5 %/Monat ist normal.
   irgendwann eine Anpassung. Rücklage bilden: **30 % jedes Eingangs auf ein
   separates Konto**, ab Tag 1
 
-**KPI:** Ø Bearbeitungszeit pro Kunde < 16 h.
+**KPI:** Ø Bearbeitungszeit pro Kunde < 17 h.
 **Umsatz: 12.000 €**
 
 ---
@@ -251,8 +252,8 @@ Churn von 3–5 %/Monat ist normal.
 | 11 | 1 | 0 | 10 | 15.000 € | 93.000 € |
 | 12 | 0 | 0 | 10 | 15.000 € | **108.000 €** |
 
-Zzgl. Setup-Fees (ca. 12 × 490–690 € ≈ **6.500 €**) und Upsells (Shootings,
-Ads-Betreuung, ca. **6.000 €**) → realistischer Jahresumsatz **~120.000 € netto**.
+Zzgl. Setup-Fees (ca. 12 × 490–690 € ≈ **6.500 €**) und Upsells (zusätzliche
+Drehtage, TikTok, Recruiting-Kampagnen, ca. **6.000 €**) → realistischer Jahresumsatz **~120.000 € netto**.
 
 **Grobe Kostenrechnung Jahr 1:**
 

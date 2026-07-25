@@ -10,7 +10,11 @@ Der erste Monat entscheidet, ob ein Kunde 3 oder 30 Monate bleibt.
       (Business-Portfolio → Partner hinzufügen → Rolle „Inhalte erstellen")
 - [ ] **Niemals Passwörter austauschen.** Nicht bequemer, aber: kein Haftungs-
       risiko, kein Verlust des Zugangs beim Kunden, kein 2FA-Chaos
-- [ ] Gemeinsamer Cloud-Ordner für Rohmaterial (der Kunde lädt dort ab)
+- [ ] Upload-Link ohne Login einrichten (Dropbox File Request oder
+      Google-Drive-Upload) und WhatsApp-Gruppe „Content [Firma]" anlegen
+- [ ] **Bestandsarchiv absaugen** — alle Fotos und Videos der letzten zwei Jahre.
+      Das ist dein Puffer für die ersten 8–12 Wochen, siehe
+      [`08-materialbeschaffung.md`](08-materialbeschaffung.md)
 - [ ] Fester Ansprechpartner benannt — **eine** Person, nicht „das Team"
 
 **Tag 2–3 — Kick-off-Workshop (90 Minuten)**
@@ -31,7 +35,9 @@ Der erste Monat entscheidet, ob ein Kunde 3 oder 30 Monate bleibt.
 **Tag 8–10 — Freigabe & Start**
 - [ ] Redaktionsplan zur Freigabe
 - [ ] Erste zwei Wochen Content produziert und eingeplant
-- [ ] Kunde weiß: Was liefert **er** wann? (Rohmaterial ist seine Bringschuld)
+- [ ] Erster Drehauftrag verschickt, Termin für den ersten Drehtag steht
+- [ ] Kunde weiß: Was liefert **er** wann? (Handymaterial ist seine Bringschuld,
+      Vorlage in [`vorlagen/drehauftrag.md`](vorlagen/drehauftrag.md))
 
 ## 2. Content-Säulen (funktioniert in fast jeder Nische)
 
@@ -58,6 +64,9 @@ Die Reels kommen aus „Wissen/Nutzen" und „Ergebnis zeigen" — die laufen am
 | täglich, 15 min | Community-Management (feste Uhrzeit, z. B. 9:00) | 5 h/M |
 | 1. Folgemonat | Reporting erstellen | 1 h |
 | 2.–4. Folgemonat | Reporting-Call (30 min) | 0,5 h |
+| 10. des Monats | Drehauftrag für den Folgemonat verschicken | 20 min |
+| 17. / 20. | Erinnerung, Stichtag, ggf. Archiv aktivieren | 15 min |
+| 1× pro Quartal | **Drehtag vor Ort** inkl. Anfahrt | 5 h |
 
 **Batching ist der Hebel:** Alle Reels aller Kunden am selben Tag schneiden.
 Alle Captions aller Kunden am selben Tag schreiben. Der Kontextwechsel kostet
@@ -80,8 +89,8 @@ Punkt 5 und 6 sind der eigentliche Wert. Zahlen kann der Kunde selbst sehen.
 
 Härteste Lektion aus Jahr 1 — spar sie dir vorab:
 
-- **Kein Rohmaterial und keine Bereitschaft, welches zu liefern.** Du kannst
-  aus nichts kein Instagram machen
+- **Kein Bestandsarchiv und keine Bereitschaft zum Drehtag.** Eines von beiden
+  genügt — fehlt beides, kannst du schlicht nicht liefern
 - **Kein fester Ansprechpartner** („Das entscheiden wir im Team") → endlose
   Korrekturschleifen
 - **Erwartung „viral gehen" in Monat 1.** Realistische Erwartung setzen oder

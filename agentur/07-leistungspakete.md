@@ -17,7 +17,7 @@ Verkaufslogik — das bekommt der Kunde nicht zu sehen.
 | Redaktionsplan | ✓ | ✓ | ✓ |
 | Community-Management | — | werktags | werktags, Reaktion < 4 h |
 | Reporting | PDF | PDF + 30-Min-Call | Lead-Report + 60-Min-Call |
-| Content-Shooting | — | — (850 € Zubuchung) | 1× pro Quartal inklusive |
+| **Drehtag vor Ort** | — (850 € Zubuchung) | **halber Tag, 1× pro Quartal** | **ganzer Tag, 1× pro Quartal** |
 | Meta Ads (Instagram/Facebook) | — | — | ✓ |
 | **Google Ads** | — | — | ✓ |
 | Google Unternehmensprofil | — | — | ✓ inkl. Bewertungsmanagement |
@@ -28,20 +28,32 @@ Verkaufslogik — das bekommt der Kunde nicht zu sehen.
 
 | | Präsenz | Wachstum | Marktführer |
 |---|---:|---:|---:|
-| Content-Produktion | 6 h | 13 h | 15 h |
-| Community-Management | 0 h | 5 h | 5 h |
-| Strategie, Reporting, Abstimmung | 4 h | 2 h | 4 h |
+| Content-Produktion | 7 h | 11 h | 13 h |
+| Community-Management | — | 5 h | 5 h |
+| Strategie & Redaktionsplan | 1,5 h | 2 h | 2 h |
+| Reporting, Call, Abstimmung | 1,5 h | 2 h | 3 h |
+| Drehtag (pro Quartal, umgelegt) | — | 1,5 h | 3 h |
 | Meta Ads | — | — | 4 h |
 | Google Ads | — | — | 6 h |
-| **Aufwand gesamt** | **10 h** | **20 h** | **34 h** |
-| **Effektiver Stundensatz** | **89 €** | **75 €** | **85 €** |
+| **Aufwand gesamt** | **10 h** | **21,5 h** | **36 h** |
+| **Effektiver Stundensatz** | **89 €** | **70 €** | **81 €** |
 | Deckungsbeitrag (selbst geliefert) | 890 € | 1.500 € | 2.900 € |
 | Deckungsbeitrag (mit Freelancern) | 590 € | 1.050 € | 1.900 € |
 
-**Kapazität:** Ein Marktführer-Kunde frisst so viel Zeit wie 3,4 Präsenz-Kunden.
+**Warum Wachstum den niedrigsten Stundensatz hat:** Es ist das Volumenpaket. Es
+verkauft sich am leichtesten, hat die niedrigsten Akquisekosten pro Euro Umsatz
+und ist das einzige, das du zehnmal parallel betreiben kannst. Nach drei Monaten
+Einarbeitung sinkt der Aufwand auf 15–17 h — dann liegst du bei 90–100 €/h.
+
+**Kapazität:** Ein Marktführer-Kunde frisst so viel Zeit wie 3,6 Präsenz-Kunden.
 Nimm maximal **zwei bis drei Premium-Kunden gleichzeitig**, solange du allein
 arbeitest — sonst kippt deine Auslastung genau dann, wenn eine Kampagne Probleme
 macht.
+
+**Drehtage bündeln:** Leg alle Drehtage eines Quartals in zwei Wochen. Bei acht
+Kunden sind das rund fünf Drehtage — wenn die über das Quartal verstreut liegen,
+zerschießen sie dir jede Woche. In zwei Blockwochen sind sie ein planbarer
+Kraftakt.
 
 **Zielmix nach 12 Monaten** (statt 10× 1.500 €):
 
@@ -55,6 +67,11 @@ macht.
 Das schlägt den ursprünglichen Plan aus [`02-12-monats-plan.md`](02-12-monats-plan.md)
 um gut 1.500 € im Monat — bei etwa gleicher Kundenzahl.
 
+**Achtung Kapazität:** Dieser Mix bedeutet 2×10 + 6×21,5 + 2×36 = **221 Stunden
+Delivery im Monat**. Das ist ohne Team unmöglich. Ab diesem Punkt müssen
+Freelancer:innen rund 60 % der Produktion tragen — deckt sich mit Monat 11 aus
+dem 12-Monats-Plan.
+
 ## 3. Warum die Pakete so geschnitten sind
 
 **Präsenz ist bewusst unbequem.** Kein Community-Management. Das ist der Punkt,
@@ -66,6 +83,18 @@ spürbare Lücke bringt dich nie nach oben.
 markiert, und es ist das einzige Paket, bei dem Preis und Leistung offensichtlich
 zusammenpassen. Drei Optionen führen fast immer zur mittleren — das ist der
 eigentliche Zweck von Paket 1 und 3.
+
+**Der Drehtag ist ab Wachstum inklusive — und das ist eine Risikoentscheidung,
+keine Großzügigkeit.** Er kostet dich 1,5 h im Monatsschnitt und drückt den
+Stundensatz um fünf Euro. Dafür hängt deine Lieferfähigkeit nicht mehr daran,
+ob der Kunde Handyvideos schickt. Ein Kunde, der nach vier Monaten wegen eines
+leeren Feeds kündigt, kostet dich 6.000 € Umsatz plus einen Monat Akquise — der
+Drehtag kostet dich fünf Stunden im Quartal. Ausführlich in
+[`08-materialbeschaffung.md`](08-materialbeschaffung.md).
+
+**Präsenz hat bewusst keinen Drehtag.** Das ist neben dem fehlenden
+Community-Management der zweite Upgrade-Anlass: Wer selbst nichts liefert und
+keinen Drehtag hat, sieht nach zwei Monaten, dass es dünn wird.
 
 **Marktführer verankert nach oben.** Selbst wenn du es nie verkaufst, lässt es
 die 1.500 € günstig aussehen. Und es hat ein Argument, das Content allein nie
@@ -117,7 +146,7 @@ Verkauf nichts, was du nicht liefern kannst. Drei ehrliche Wege:
 |---|---|---|
 | **Selbst lernen** — Google Skillshop ist kostenlos, Zertifizierung in 2–3 Wochen machbar, danach 2–3 Testkampagnen mit kleinem eigenem Budget | ~40 h | Beste Marge, aber erst ab Monat 4–6 verkaufsreif |
 | **White-Label an Freelancer** — 400–600 €/Monat pro Kunde, du bleibst Ansprechpartner und Rechnungssteller | gering | Dir bleiben ~900 € Aufschlag pro Kunde. Empfohlener Start |
-| **Paket 3 vorerst weglassen** | — | Dann heißt die dritte Stufe „Wachstum+" mit Shooting, TikTok-Zweitverwertung und Meta Ads für 2.200 € |
+| **Paket 3 vorerst weglassen** | — | Dann heißt die dritte Stufe „Wachstum+" mit ganzem Drehtag, TikTok-Zweitverwertung und Meta Ads für 2.200 € |
 
 Der mittlere Weg ist für die ersten zwölf Monate der richtige: Du verkaufst das
 Ergebnis, ein erfahrener Freelancer liefert die Kampagne, und du lernst
@@ -127,8 +156,8 @@ nebenher mit.
 
 | Leistung | Preis |
 |---|---|
-| Content-Shooting, halber Tag vor Ort | 850 € einmalig |
-| Content-Shooting, ganzer Tag | 1.450 € einmalig |
+| Zusätzlicher Drehtag, halber Tag vor Ort | 850 € einmalig |
+| Zusätzlicher Drehtag, ganzer Tag | 1.450 € einmalig |
 | TikTok-Zweitverwertung der Reels | 390 € / Monat |
 | LinkedIn-Betreuung (B2B, Recruiting) | 490 € / Monat |
 | Zusätzliche Reels | 120 € / Stück |

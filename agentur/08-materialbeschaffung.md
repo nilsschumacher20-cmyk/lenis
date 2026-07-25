@@ -188,22 +188,31 @@ Beide Antworten sind ein Ja. Und du erfährst sofort, mit welchem Typ Kunde du e
 zu tun hast — wer „kommen Sie lieber vorbei" sagt, wird nie etwas schicken. Das
 ist keine schlechte Nachricht, sondern eine Kalkulationsgrundlage.
 
-## 8. Empfehlung zur Paketgestaltung
+## 8. So ist es in den Paketen umgesetzt
 
-Aus der Praxis heraus solltest du überlegen, den **Quartals-Drehtag fest in das
-Paket „Wachstum" aufzunehmen**, statt ihn für 850 € zuzubuchen:
+Der Drehtag ist **ab „Wachstum" fest enthalten** — das ist eine
+Risikoentscheidung, keine Großzügigkeit:
 
-| | Shooting als Zubuchung | Shooting inklusive (1× pro Quartal) |
+| | Drehtag als Zubuchung | Drehtag inklusive (1× pro Quartal) |
 |---|---|---|
 | Aufwand pro Monat | 20 h | ~21,5 h |
 | Stundensatz bei 1.500 € | 75 € | 70 € |
 | Risiko „Feed läuft leer" | **hoch** | gering |
 | Churn-Wahrscheinlichkeit | deutlich höher | gering |
 
-Fünf Euro Stundensatz gegen den häufigsten Kündigungsgrund — das ist ein guter
-Tausch. Ein Kunde, der nach vier Monaten kündigt, kostet dich 6.000 € Umsatz und
-einen Monat Akquise. Der Drehtag kostet dich 4 Stunden.
+Fünf Euro Stundensatz gegen den häufigsten Kündigungsgrund — ein guter Tausch.
+Ein Kunde, der nach vier Monaten kündigt, kostet dich 6.000 € Umsatz und einen
+Monat Akquise. Der Drehtag kostet dich fünf Stunden im Quartal.
 
-Wenn du die Pakete so umstellst, ändert sich [`07-leistungspakete.md`](07-leistungspakete.md)
-entsprechend: „1 Content-Shooting pro Quartal" wandert von Marktführer nach
-Wachstum, und Marktführer bekommt stattdessen ein Shooting **pro Monat**.
+| Paket | Drehtag |
+|---|---|
+| **Präsenz** (890 €) | keiner — zubuchbar ab 850 €. Der fehlende Drehtag ist neben dem fehlenden Community-Management der zweite Upgrade-Anlass |
+| **Wachstum** (1.500 €) | **halber Tag pro Quartal**, inklusive |
+| **Marktführer** (2.900 €) | **ganzer Tag pro Quartal**, inklusive — doppelte Ausbeute, die das Paket für Ads-Creatives auch braucht |
+
+**Drehtage im Quartal bündeln.** Bei acht Kunden sind das rund fünf Drehtage.
+Verstreut über das Quartal zerschießen sie dir jede Woche; in zwei Blockwochen
+sind sie ein planbarer Kraftakt. Leg sie an den Quartalsanfang, dann hast du für
+den Rest des Quartals volle Archive.
+
+Details und Kalkulation: [`07-leistungspakete.md`](07-leistungspakete.md).

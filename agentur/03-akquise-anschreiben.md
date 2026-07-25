@@ -94,7 +94,8 @@ finden + Erlaubnis für die Mail + idealerweise 15-Minuten-Termin.
 >
 > Was ich für [Nische]-Betriebe mache: kompletter Instagram-Auftritt aus einer
 > Hand — 8 Posts, 4 Reels, Stories, Community-Management und ein monatliches
-> Reporting. Sie liefern Rohmaterial, den Rest übernehme ich.
+> Reporting. Einmal pro Quartal komme ich für einen halben Tag zu Ihnen und
+> produziere alles vor Ort — Sie müssen nichts vorbereiten.
 > **1.500 € im Monat, drei Monate Mindestlaufzeit, danach monatlich kündbar.**
 >
 > Ein Beispiel: Bei [Referenzkunde] ist die Reichweite in [Zeitraum] von
