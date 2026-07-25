@@ -15,6 +15,8 @@ ersetzen, losarbeiten.
 | [`05-onboarding-und-betrieb.md`](05-onboarding-und-betrieb.md) | Kunden-Onboarding, Zugriffe, Monatsrhythmus, Reporting |
 | [`06-zielliste-brandenburg.md`](06-zielliste-brandenburg.md) | Marktgröße Raum Brandenburg a.d.H., Radius, Listenaufbau in 4 Stunden |
 | [`akquise/zielliste.csv`](akquise/zielliste.csv) | Arbeitsdatei für die Kaltakquise (Excel/LibreOffice) |
+| [`07-leistungspakete.md`](07-leistungspakete.md) | Drei Pakete inkl. Kalkulation, Verkaufslogik und Google-Ads-Regeln |
+| [`angebot/pakete.html`](angebot/pakete.html) | Kundenblatt zum Ausdrucken (A4, eine Seite) |
 | [`rechnung/`](rechnung/) | Rechnungsgenerator: JSON rein → druckfertige HTML-Rechnung (+ XRechnung-XML) raus |
 
 ## Schnellstart
