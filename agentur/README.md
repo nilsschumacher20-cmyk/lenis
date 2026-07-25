@@ -19,6 +19,7 @@ ersetzen, losarbeiten.
 | [`angebot/pakete.html`](angebot/pakete.html) | Kundenblatt zum Ausdrucken (A4, eine Seite) |
 | [`08-materialbeschaffung.md`](08-materialbeschaffung.md) | Woher Fotos und Videos kommen: Drehtag, Archiv, Kundenzulieferung |
 | [`vorlagen/drehauftrag.md`](vorlagen/drehauftrag.md) | Monatlicher Drehauftrag an den Kunden + Filmanleitung |
+| [`09-name-und-marke.md`](09-name-und-marke.md) | Namensfindung, Firmierungsrecht, Marken- und Domainprüfung |
 | [`rechnung/`](rechnung/) | Rechnungsgenerator: JSON rein → druckfertige HTML-Rechnung (+ XRechnung-XML) raus |
 
 ## Schnellstart
