@@ -123,9 +123,12 @@ Cloud-Registrierung. Realistisch:
   senden" schicken lassen oder gleich über den Upload-Link. Sonst bekommst du
   matschige 480p-Clips, aus denen du nichts machen kannst
 
-Zu WhatsApp: Nutze **WhatsApp Business** und halte dort nur die Abstimmung ab,
-keine Kundendaten Dritter. Für die Dateien nimm den Upload-Link — sauberer und
-technisch besser.
+Zu WhatsApp: Nutze **WhatsApp Business** mit eigener Geschäftsnummer und halte
+dort nur die Abstimmung ab, keine Kundendaten Dritter. Für die Dateien nimm den
+Upload-Link — sauberer und technisch besser. Einrichtung, Profilname,
+Impressumspflicht und das Adressbuch-Problem stehen in
+[`09-name-und-marke.md`](09-name-und-marke.md), Abschnitt 6. **Nur für
+Bestandskunden** — für die Kaltakquise ist der Kanal rechtlich tabu.
 
 **5. Immer derselbe Stichtag.** Zum Beispiel der 20. für den Folgemonat. Erinnerung
 drei Tage vorher und am Stichtag, immer gleich formuliert. Routine schlägt

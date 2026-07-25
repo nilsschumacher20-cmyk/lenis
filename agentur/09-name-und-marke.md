@@ -131,7 +131,66 @@ Eine **eigene Markenanmeldung** brauchst du in Jahr 1 nicht. Sie kostet beim
 DPMA ab 290 € für drei Klassen und lohnt erst, wenn der Name Wert hat — also ab
 dem Zeitpunkt, an dem dich Leute in der Region ungefragt weiterempfehlen.
 
-## 6. Was du gleichzeitig festlegst
+## 6. WhatsApp Business richtig benennen und einrichten
+
+### Wie du dich nennen darfst
+
+**Im Profilnamen darf deine Geschäftsbezeichnung stehen** — also `Werkbild`.
+Der Profilname ist keine Firmierung im Rechtssinne, sondern eine
+Geschäftsbezeichnung, und die ist auch ohne Handelsregistereintrag erlaubt.
+
+Was WhatsApp selbst verlangt:
+- Der Name muss zum tatsächlichen Geschäft passen — keine Fantasieangabe, die
+  etwas anderes vorgibt
+- Keine reinen Gattungsbegriffe („Fahrschule", „Social Media")
+- Keine URL, keine Telefonnummer, keine Werbebotschaft im Namen
+- **Änderungen sind eingeschränkt.** Leg dich beim Einrichten fest, statt
+  hinterher umzubenennen
+
+**Empfohlene Schreibweise:** `Werkbild` — schlicht. Wenn du in der Kaltakquise
+greifbarer wirken willst: `Werkbild · Nils Schumacher`. Bei lokalem B2B ist der
+Personenbezug eher ein Vorteil.
+
+### Impressumspflicht gilt auch hier
+
+Ein geschäftlich genutztes WhatsApp-Business-Profil ist ein Telemedium — die
+Impressumspflicht nach § 5 DDG greift. Du musst kein Impressum in den
+Profiltext quetschen, aber es muss **von dort aus erreichbar** sein:
+
+| Profilfeld | Was hineingehört |
+|---|---|
+| Name | `Werkbild` |
+| Beschreibung | Was du machst, in einem Satz — plus „Impressum & Datenschutz: werkbild.de/impressum" |
+| Adresse | Deine Geschäftsanschrift (dieselbe wie auf der Rechnung) |
+| E-Mail | `hallo@werkbild.de` |
+| Website | `werkbild.de` — die Adresse, unter der Impressum und Datenschutzerklärung liegen |
+
+### Zwei Dinge, die du beachten musst
+
+**1. Keine Kaltakquise über WhatsApp.** Messenger-Nachrichten zählen als
+elektronische Post im Sinne von § 7 UWG — Werbung ohne vorherige Einwilligung
+ist damit genauso unzulässig wie die Kalt-E-Mail, siehe
+[`03-akquise-anschreiben.md`](03-akquise-anschreiben.md), Abschnitt 0. WhatsApp
+ist ein Kanal für **Bestandskunden**, die ihn selbst gewählt haben — nicht für
+die Zielliste.
+
+**2. Das Adressbuch-Problem.** WhatsApp gleicht standardmäßig dein Adressbuch
+mit Meta ab. Enthält dein Telefon Kontaktdaten von Kunden und deren
+Mitarbeitern, gibst du personenbezogene Daten Dritter weiter, für die du keine
+Einwilligung hast. Praktische Absicherung:
+
+- **Eigene Nummer für das Geschäft** — zweite SIM/eSIM, oder Festnetznummer
+  (WhatsApp Business lässt sich per Sprachanruf auch auf Festnetz verifizieren)
+- **Adressbuchzugriff verweigern.** WhatsApp Business funktioniert auch ohne;
+  Kontakte fügst du manuell hinzu
+- Nutzung des Kanals in deiner **Datenschutzerklärung** benennen und die
+  Einwilligung beim Onboarding schriftlich einholen
+
+Wer das nicht will: Signal, Threema Work oder schlicht SMS plus Upload-Link
+tun es auch. Der Kanal ist zweitrangig — entscheidend ist, dass die Zulieferung
+den Kunden zehn Sekunden kostet.
+
+## 7. Was du gleichzeitig festlegst
 
 Sobald der Name steht, in einem Rutsch erledigen — sonst hast du drei
 Schreibweisen im Umlauf:
