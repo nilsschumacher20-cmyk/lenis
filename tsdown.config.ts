@@ -24,12 +24,13 @@ const iife = (globalName: string, minify = false) =>
   }) as const
 
 export default defineConfig([
-  // Core + Snap ESM
+  // Core + Snap + Remote ESM
   {
     ...shared,
     entry: {
       lenis: 'packages/core/index.ts',
       'lenis-snap': 'packages/snap/index.ts',
+      'lenis-remote': 'packages/remote/index.ts',
     },
     dts: true,
     clean: true,
@@ -74,4 +75,12 @@ export default defineConfig([
   { entry: { lenis: 'packages/core/browser.ts' }, ...iife('Lenis', true) },
   { entry: { 'lenis-snap': 'packages/snap/browser.ts' }, ...iife('Snap') },
   { entry: { 'lenis-snap': 'packages/snap/browser.ts' }, ...iife('Snap', true) },
+  {
+    entry: { 'lenis-remote': 'packages/remote/browser.ts' },
+    ...iife('LenisRemote'),
+  },
+  {
+    entry: { 'lenis-remote': 'packages/remote/browser.ts' },
+    ...iife('LenisRemote', true),
+  },
 ])

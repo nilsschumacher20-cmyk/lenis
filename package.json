@@ -82,6 +82,10 @@
       "types": "./dist/lenis-react.d.ts",
       "default": "./dist/lenis-react.mjs"
     },
+    "./remote": {
+      "types": "./dist/lenis-remote.d.ts",
+      "default": "./dist/lenis-remote.mjs"
+    },
     "./snap": {
       "types": "./dist/lenis-snap.d.ts",
       "default": "./dist/lenis-snap.mjs"

@@ -30,6 +30,9 @@
         "react": "^19.0.0",
       },
     },
+    "packages/remote": {
+      "name": "lenis-remote",
+    },
     "packages/snap": {
       "name": "lenis-snap",
     },
@@ -1253,6 +1256,8 @@
     "lenis-core": ["lenis-core@workspace:packages/core"],
 
     "lenis-react": ["lenis-react@workspace:packages/react"],
+
+    "lenis-remote": ["lenis-remote@workspace:packages/remote"],
 
     "lenis-snap": ["lenis-snap@workspace:packages/snap"],
 

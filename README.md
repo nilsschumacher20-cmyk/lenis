@@ -42,6 +42,7 @@ Read our [Manifesto](https://github.com/darkroomengineering/lenis/blob/main/MANI
 - **Built for sync** — drives WebGL scroll scenes, GSAP ScrollTrigger, and parallax off one loop
 - **Framework adapters** — first-class packages for React, Vue, and Framer
 - **Scroll snapping** — the snap plugin aligns sections without fighting the smooth scroll
+- **Remote control** — drive and observe an instance from another window, frame, or tab
 
 ## Sponsors
 
@@ -64,6 +65,7 @@ Your support helps us smooth out the internet one library at a time—and lets u
 - [lenis/vue](https://github.com/darkroomengineering/lenis/tree/main/packages/vue/README.md)
 - [lenis/framer](https://lenis.framer.website/)
 - [lenis/snap](https://github.com/darkroomengineering/lenis/tree/main/packages/snap/README.md)
+- [lenis/remote](https://github.com/darkroomengineering/lenis/tree/main/packages/remote/README.md)
 
 <br/>
 
