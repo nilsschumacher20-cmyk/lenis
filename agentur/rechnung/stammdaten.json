@@ -1,0 +1,24 @@
+{
+  "firma": "Mustermann Social Media",
+  "inhaber": "Max Mustermann",
+  "strasse": "Musterstraße 12",
+  "plz": "48143",
+  "ort": "Münster",
+  "land": "Deutschland",
+  "laendercode": "DE",
+  "telefon": "+49 251 1234567",
+  "email": "rechnung@mustermann-social.de",
+  "website": "www.mustermann-social.de",
+  "steuernummer": "336/5678/1234",
+  "ustIdNr": "DE123456789",
+  "kleinunternehmer": false,
+  "steuersatz": 19,
+  "zahlungszielTage": 14,
+  "bank": {
+    "kontoinhaber": "Max Mustermann",
+    "institut": "Sparkasse Münsterland Ost",
+    "iban": "DE02 4005 0150 0000 1234 56",
+    "bic": "WELADED1MST"
+  },
+  "fusszeile": "Es gelten die im Rahmenvertrag vereinbarten Bedingungen."
+}

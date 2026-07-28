@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{nummer}} – {{kunde.firma}}</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 20mm 20mm 18mm 25mm;
+      }
+
+      :root {
+        --ink: #16181d;
+        --muted: #6b7280;
+        --line: #dcdfe4;
+        --accent: #1f2937;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 10.5pt;
+        line-height: 1.5;
+        color: var(--ink);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .blatt {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm 20mm 18mm 25mm;
+        margin: 0 auto;
+        background: #fff;
+      }
+
+      .kopf {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 12mm;
+      }
+
+      .kopf .marke {
+        font-size: 15pt;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .kopf .kontakt {
+        text-align: right;
+        font-size: 8.5pt;
+        color: var(--muted);
+        line-height: 1.6;
+        white-space: pre-line;
+      }
+
+      .anschriftenfeld {
+        margin-top: 18mm;
+        min-height: 30mm;
+      }
+
+      .absenderzeile {
+        font-size: 7.5pt;
+        color: var(--muted);
+        border-bottom: 0.5pt solid var(--line);
+        padding-bottom: 1mm;
+        margin-bottom: 3mm;
+      }
+
+      .empfaenger {
+        line-height: 1.55;
+      }
+
+      .empfaenger .firma {
+        font-weight: 600;
+      }
+
+      .meta {
+        margin-top: 12mm;
+        display: flex;
+        justify-content: space-between;
+        gap: 10mm;
+      }
+
+      .meta h1 {
+        font-size: 14pt;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: -0.01em;
+      }
+
+      .meta dl {
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0.5mm 6mm;
+        font-size: 9.5pt;
+        text-align: right;
+      }
+
+      .meta dt {
+        color: var(--muted);
+      }
+
+      .meta dd {
+        margin: 0;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .zeitraum {
+        margin-top: 7mm;
+        font-size: 10pt;
+      }
+
+      table.positionen {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 8mm;
+        font-size: 10pt;
+      }
+
+      table.positionen thead th {
+        text-align: left;
+        font-size: 8.5pt;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+        font-weight: 600;
+        border-bottom: 1pt solid var(--accent);
+        padding: 0 0 2mm;
+      }
+
+      table.positionen td {
+        padding: 3mm 0;
+        border-bottom: 0.5pt solid var(--line);
+        vertical-align: top;
+      }
+
+      .num {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+
+      .spalte-pos {
+        width: 12mm;
+        padding-right: 5mm;
+        color: var(--muted);
+      }
+
+      .spalte-menge {
+        width: 22mm;
+      }
+
+      .spalte-preis {
+        width: 26mm;
+      }
+
+      .spalte-summe {
+        width: 28mm;
+      }
+
+      .leistung {
+        font-weight: 600;
+      }
+
+      .leistung-detail {
+        color: var(--muted);
+        font-size: 9pt;
+        margin-top: 0.8mm;
+      }
+
+      .summen {
+        margin-top: 6mm;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .summen table {
+        border-collapse: collapse;
+        min-width: 78mm;
+        font-size: 10pt;
+      }
+
+      .summen td {
+        padding: 1.6mm 0;
+      }
+
+      .summen td:last-child {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+        padding-left: 10mm;
+      }
+
+      .summen tr.gesamt td {
+        border-top: 1pt solid var(--accent);
+        padding-top: 2.5mm;
+        font-weight: 700;
+        font-size: 11.5pt;
+      }
+
+      .hinweisblock {
+        margin-top: 9mm;
+        font-size: 10pt;
+      }
+
+      .hinweisblock p {
+        margin: 0 0 2.5mm;
+      }
+
+      .zahlung {
+        margin-top: 8mm;
+        padding: 4mm 5mm;
+        background: #f5f6f8;
+        border-radius: 2mm;
+        font-size: 9.5pt;
+        line-height: 1.6;
+      }
+
+      .zahlung strong {
+        font-weight: 600;
+      }
+
+      .fuss {
+        margin-top: 14mm;
+        padding-top: 3mm;
+        border-top: 0.5pt solid var(--line);
+        display: flex;
+        justify-content: space-between;
+        gap: 8mm;
+        font-size: 7.5pt;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .fuss div {
+        white-space: pre-line;
+      }
+
+      @media screen {
+        body {
+          background: #eceef1;
+          padding: 12mm 0;
+        }
+        .blatt {
+          box-shadow: 0 2mm 8mm rgba(0, 0, 0, 0.12);
+        }
+      }
+
+      @media print {
+        body {
+          background: #fff;
+          padding: 0;
+        }
+        .blatt {
+          width: auto;
+          min-height: 0;
+          padding: 0;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blatt">
+      <header class="kopf">
+        <div class="marke">{{firma}}</div>
+        <div class="kontakt">{{kontaktblock}}</div>
+      </header>
+
+      <section class="anschriftenfeld">
+        <div class="absenderzeile">{{absenderzeile}}</div>
+        <div class="empfaenger">
+          <div class="firma">{{kunde.firma}}</div>
+          {{#kunde.ansprechpartner}}<div>{{kunde.ansprechpartner}}</div>{{/kunde.ansprechpartner}}
+          <div>{{kunde.strasse}}</div>
+          <div>{{kunde.plz}} {{kunde.ort}}</div>
+          {{#kunde.landAnzeigen}}<div>{{kunde.land}}</div>{{/kunde.landAnzeigen}}
+        </div>
+      </section>
+
+      <section class="meta">
+        <h1>Rechnung</h1>
+        <dl>
+          <dt>Rechnungsnummer</dt>
+          <dd>{{nummer}}</dd>
+          <dt>Rechnungsdatum</dt>
+          <dd>{{datumAnzeige}}</dd>
+          {{#kunde.kundennummer}}
+          <dt>Kundennummer</dt>
+          <dd>{{kunde.kundennummer}}</dd>
+          {{/kunde.kundennummer}}
+          {{#kunde.referenz}}
+          <dt>Ihre Referenz</dt>
+          <dd>{{kunde.referenz}}</dd>
+          {{/kunde.referenz}}
+        </dl>
+      </section>
+
+      <p class="zeitraum">{{leistungszeitraumText}}</p>
+
+      <table class="positionen">
+        <thead>
+          <tr>
+            <th class="spalte-pos">Pos.</th>
+            <th>Leistung</th>
+            <th class="spalte-menge num">Menge</th>
+            <th class="spalte-preis num">Einzelpreis</th>
+            <th class="spalte-summe num">Gesamt</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#positionen}}
+          <tr>
+            <td class="spalte-pos">{{nr}}</td>
+            <td>
+              <div class="leistung">{{bezeichnung}}</div>
+              {{#beschreibung}}<div class="leistung-detail">{{beschreibung}}</div>{{/beschreibung}}
+            </td>
+            <td class="num">{{mengeAnzeige}} {{einheit}}</td>
+            <td class="num">{{einzelpreisAnzeige}}</td>
+            <td class="num">{{gesamtAnzeige}}</td>
+          </tr>
+          {{/positionen}}
+        </tbody>
+      </table>
+
+      <div class="summen">
+        <table>
+          <tr>
+            <td>Nettobetrag</td>
+            <td>{{nettoAnzeige}}</td>
+          </tr>
+          {{#umsatzsteuerpflichtig}}
+          <tr>
+            <td>zzgl. {{steuersatzAnzeige}} % Umsatzsteuer</td>
+            <td>{{steuerAnzeige}}</td>
+          </tr>
+          {{/umsatzsteuerpflichtig}}
+          <tr class="gesamt">
+            <td>Rechnungsbetrag</td>
+            <td>{{bruttoAnzeige}}</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="hinweisblock">
+        {{#kleinunternehmer}}
+        <p>Gemäß § 19 UStG wird keine Umsatzsteuer berechnet.</p>
+        {{/kleinunternehmer}}
+        {{#hinweis}}
+        <p>{{hinweis}}</p>
+        {{/hinweis}}
+      </div>
+
+      <div class="zahlung">
+        <div>
+          Bitte überweisen Sie den Rechnungsbetrag von <strong>{{bruttoAnzeige}}</strong> ohne Abzug bis zum
+          <strong>{{faelligAnzeige}}</strong> unter Angabe der Rechnungsnummer <strong>{{nummer}}</strong>.
+        </div>
+        <div style="margin-top: 2mm">
+          {{bank.kontoinhaber}} · {{bank.institut}}<br />
+          IBAN {{bank.iban}} · BIC {{bank.bic}}
+        </div>
+      </div>
+
+      <footer class="fuss">
+        <div>{{fussLinks}}</div>
+        <div>{{fussMitte}}</div>
+        <div>{{fussRechts}}</div>
+      </footer>
+    </div>
+  </body>
+</html>

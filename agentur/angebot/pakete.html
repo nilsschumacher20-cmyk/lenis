@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Leistungspakete Instagram</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
+
+      :root {
+        --ink: #16181d;
+        --muted: #6b7280;
+        --line: #dcdfe4;
+        --akzent: #14532d;
+        --akzent-hell: #f0f7f2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 8.6pt;
+        line-height: 1.45;
+        color: var(--ink);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .blatt {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 14mm;
+        margin: 0 auto;
+        background: #fff;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        border-bottom: 1pt solid var(--ink);
+        padding-bottom: 3mm;
+      }
+
+      header .marke {
+        font-size: 13pt;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      header .claim {
+        font-size: 9pt;
+        color: var(--muted);
+      }
+
+      h1 {
+        font-size: 11pt;
+        margin: 5mm 0 1mm;
+      }
+
+      .einleitung {
+        margin: 0 0 4mm;
+        font-size: 9pt;
+        color: var(--muted);
+        max-width: 150mm;
+      }
+
+      .pakete {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4mm;
+        align-items: start;
+      }
+
+      .paket {
+        border: 0.75pt solid var(--line);
+        border-radius: 2mm;
+        padding: 4.5mm 4mm;
+        height: 100%;
+      }
+
+      .paket.empfohlen {
+        border: 1.5pt solid var(--akzent);
+        background: var(--akzent-hell);
+        position: relative;
+      }
+
+      .fahne {
+        position: absolute;
+        top: -2.6mm;
+        left: 4.5mm;
+        background: var(--akzent);
+        color: #fff;
+        font-size: 6.6pt;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.8mm 2mm;
+        border-radius: 1mm;
+      }
+
+      .paket h2 {
+        font-size: 11.5pt;
+        margin: 0 0 0.5mm;
+        letter-spacing: -0.01em;
+      }
+
+      .paket .fuer {
+        color: var(--muted);
+        font-size: 8pt;
+        min-height: 7mm;
+        margin-bottom: 2mm;
+      }
+
+      .preis {
+        font-size: 17pt;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+      }
+
+      .preis span {
+        font-size: 8pt;
+        font-weight: 400;
+        color: var(--muted);
+      }
+
+      .setup {
+        font-size: 7.8pt;
+        color: var(--muted);
+        margin-top: 0.8mm;
+        padding-bottom: 3mm;
+        border-bottom: 0.5pt solid var(--line);
+      }
+
+      ul {
+        list-style: none;
+        margin: 3mm 0 0;
+        padding: 0;
+      }
+
+      li {
+        position: relative;
+        padding-left: 4.5mm;
+        margin-bottom: 1.35mm;
+      }
+
+      li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--akzent);
+        font-weight: 700;
+      }
+
+      li.aus {
+        color: #9ca3af;
+      }
+
+      li.aus::before {
+        content: "–";
+        color: #9ca3af;
+      }
+
+      li strong {
+        font-weight: 600;
+      }
+
+      .zusatz {
+        margin-top: 6mm;
+        display: grid;
+        grid-template-columns: 1.15fr 1fr;
+        gap: 6mm;
+      }
+
+      .box h3 {
+        font-size: 8.4pt;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        color: var(--muted);
+        margin: 0 0 2mm;
+        padding-bottom: 1.5mm;
+        border-bottom: 0.5pt solid var(--line);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 8.3pt;
+      }
+
+      td {
+        padding: 0.9mm 0;
+        vertical-align: top;
+      }
+
+      td:last-child {
+        text-align: right;
+        white-space: nowrap;
+        padding-left: 4mm;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .box p {
+        margin: 0 0 1.6mm;
+        font-size: 8.3pt;
+      }
+
+      footer {
+        margin-top: 5mm;
+        padding-top: 2.5mm;
+        border-top: 0.5pt solid var(--line);
+        display: flex;
+        justify-content: space-between;
+        gap: 6mm;
+        font-size: 7.4pt;
+        color: var(--muted);
+      }
+
+      @media screen {
+        body {
+          background: #eceef1;
+          padding: 10mm 0;
+        }
+        .blatt {
+          box-shadow: 0 2mm 8mm rgba(0, 0, 0, 0.12);
+        }
+      }
+
+      @media print {
+        body {
+          background: #fff;
+          padding: 0;
+        }
+        .blatt {
+          width: auto;
+          min-height: 0;
+          padding: 0;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blatt">
+      <header>
+        <div class="marke">Mustermann Social Media</div>
+        <div class="claim">Instagram für Handwerk, Praxen und Mittelstand in Brandenburg &amp; Potsdam</div>
+      </header>
+
+      <h1>Ihre drei Möglichkeiten</h1>
+      <p class="einleitung">
+        Ab „Wachstum" komme ich regelmäßig zu Ihnen und produziere vor Ort — dazwischen reichen ein paar Handyvideos,
+        zu denen Sie monatlich eine konkrete Liste bekommen. Alle Preise netto pro Monat, Abrechnung im Voraus, danach
+        monatlich kündbar.
+      </p>
+
+      <section class="pakete">
+        <article class="paket">
+          <h2>Präsenz</h2>
+          <div class="fuer">Für Betriebe, die zuverlässig sichtbar bleiben wollen.</div>
+          <div class="preis">890 € <span>/ Monat</span></div>
+          <div class="setup">zzgl. 490 € Setup · 3 Monate Mindestlaufzeit</div>
+          <ul>
+            <li><strong>4 Feed-Posts</strong> pro Monat</li>
+            <li><strong>2 Reels</strong> pro Monat</li>
+            <li>8 Stories</li>
+            <li>Redaktionsplan zur Freigabe</li>
+            <li>Profil- und Bio-Optimierung</li>
+            <li>Monatsreport als PDF</li>
+            <li class="aus">Drehtag vor Ort (zubuchbar ab 850 €)</li>
+            <li class="aus">Community-Management</li>
+            <li class="aus">Werbeanzeigen</li>
+          </ul>
+        </article>
+
+        <article class="paket empfohlen">
+          <div class="fahne">Empfohlen</div>
+          <h2>Wachstum</h2>
+          <div class="fuer">Für Betriebe, die über Instagram Anfragen und Bewerbungen wollen.</div>
+          <div class="preis">1.500 € <span>/ Monat</span></div>
+          <div class="setup">zzgl. 690 € Setup · 3 Monate Mindestlaufzeit</div>
+          <ul>
+            <li><strong>8 Feed-Posts</strong> pro Monat</li>
+            <li><strong>4 Reels</strong> pro Monat</li>
+            <li>12–16 Stories</li>
+            <li>Redaktionsplan &amp; Content-Strategie</li>
+            <li><strong>Community-Management</strong> werktags, Antwort in 24 h</li>
+            <li><strong>Halber Drehtag pro Quartal</strong> bei Ihnen vor Ort</li>
+            <li>Eigene Bildwelt und Vorlagen</li>
+            <li>Monatsreport + 30-Minuten-Call</li>
+            <li class="aus">Werbeanzeigen</li>
+          </ul>
+        </article>
+
+        <article class="paket">
+          <h2>Marktführer</h2>
+          <div class="fuer">Für Betriebe, die planbar Anfragen einkaufen wollen.</div>
+          <div class="preis">2.900 € <span>/ Monat</span></div>
+          <div class="setup">zzgl. 1.490 € Setup · 6 Monate Mindestlaufzeit</div>
+          <ul>
+            <li>Alles aus <strong>Wachstum</strong>, dazu:</li>
+            <li><strong>6 Reels</strong> statt 4, 16–20 Stories</li>
+            <li>Community-Management, Antwort in 4 h</li>
+            <li><strong>Ganzer Drehtag pro Quartal</strong> statt halbem</li>
+            <li><strong>Google Ads</strong> — Einrichtung, Kampagnen, laufende Optimierung</li>
+            <li><strong>Meta Ads</strong> für Instagram und Facebook</li>
+            <li>Google Unternehmensprofil &amp; Bewertungen</li>
+            <li>Landingpage für Ihre Kampagnen</li>
+            <li>Conversion-Tracking: jede Anfrage wird gemessen</li>
+            <li>Lead-Report mit Kosten pro Anfrage + 60-Minuten-Call</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="zusatz">
+        <div class="box">
+          <h3>Jederzeit zubuchbar</h3>
+          <table>
+            <tr>
+              <td>Zusätzlicher Drehtag, halber Tag</td>
+              <td>850 €</td>
+            </tr>
+            <tr>
+              <td>Zusätzlicher Drehtag, ganzer Tag</td>
+              <td>1.450 €</td>
+            </tr>
+            <tr>
+              <td>TikTok-Zweitverwertung Ihrer Reels</td>
+              <td>390 € / Monat</td>
+            </tr>
+            <tr>
+              <td>LinkedIn-Betreuung für Recruiting</td>
+              <td>490 € / Monat</td>
+            </tr>
+            <tr>
+              <td>Zusätzliche Reels</td>
+              <td>120 € / Stück</td>
+            </tr>
+            <tr>
+              <td>Kampagne „Wir stellen ein“</td>
+              <td>690 €</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="box">
+          <h3>Gut zu wissen</h3>
+          <p><strong>Werbebudget ist nicht enthalten.</strong> Sie zahlen Google und Meta direkt, mindestens 1.000 € im
+          Monat. So behalten Sie jederzeit die volle Kontrolle über Ihre Ausgaben.</p>
+          <p><strong>Der Drehtag kostet Sie nichts an Vorbereitung.</strong> Ich schicke vorher eine kurze Liste, was
+          ich sehen möchte — Sie stellen nur sicher, dass die Leute da sind.</p>
+          <p><strong>Ihre Konten bleiben Ihre.</strong> Ich arbeite über einen Partnerzugang — Passwörter werden nie
+          ausgetauscht, und beim Abschied bleibt alles bei Ihnen.</p>
+          <p><strong>Warum sechs Monate bei „Marktführer"?</strong> Werbekampagnen brauchen Daten. Monat 1 ist
+          Einrichtung, ab Monat 4 wird es richtig gut.</p>
+        </div>
+      </section>
+
+      <footer>
+        <div>Mustermann Social Media · Max Mustermann · Musterstraße 12 · 14776 Brandenburg an der Havel</div>
+        <div>03381 1234567 · hallo@mustermann-social.de</div>
+      </footer>
+    </div>
+  </body>
+</html>

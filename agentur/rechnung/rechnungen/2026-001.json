@@ -1,0 +1,31 @@
+{
+  "nummer": "RE-2026-001",
+  "datum": "2026-04-25",
+  "leistungszeitraum": {
+    "von": "2026-05-01",
+    "bis": "2026-05-31"
+  },
+  "kunde": {
+    "firma": "Zahnarztpraxis Dr. Beispiel MVZ GmbH",
+    "ansprechpartner": "Frau Dr. Anna Beispiel",
+    "strasse": "Hauptstraße 45",
+    "plz": "48151",
+    "ort": "Münster",
+    "land": "Deutschland",
+    "laendercode": "DE",
+    "ustIdNr": "DE987654321",
+    "email": "buchhaltung@praxis-beispiel.de",
+    "kundennummer": "K-2026-003",
+    "referenz": "Rahmenvertrag vom 12.03.2026"
+  },
+  "positionen": [
+    {
+      "bezeichnung": "Social-Media-Betreuung Instagram – Paket „Komplett“",
+      "beschreibung": "8 Feed-Posts, 4 Reels, 12–16 Stories, werktägliches Community-Management, monatliches Reporting",
+      "menge": 1,
+      "einheit": "Monat",
+      "einzelpreis": 1500.0
+    }
+  ],
+  "hinweis": "Vielen Dank für die Zusammenarbeit."
+}
